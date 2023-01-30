@@ -17,7 +17,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/GetStream/stream-chat-swift.git", from: "4.26.0"),        
+        .package(url: "https://github.com/sgoodwin/stream-chat-swift.git", .branch("fix-message-loading")),
         .package(url: "https://github.com/kean/Nuke.git", .exact("11.3.1"))
     ],
     targets: [
